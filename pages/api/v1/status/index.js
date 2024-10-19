@@ -3,11 +3,11 @@ import database from 'infra/database.js';
 async function status(request, response) {
   const updateAt = new Date().toISOString();
 
-  /* const databaseVersion = await database.query('SHOW server_version');
+  const databaseVersion = await database.query('SHOW server_version');
   const version = databaseVersion.rows[0].server_version;
 
   const databaseMaxConnections = await database.query('SHOW max_connections');
-  const maxConnections = databaseMaxConnections.rows[0].max_connections; */
+  const maxConnections = databaseMaxConnections.rows[0].max_connections;
 
   const dataName = process.env.POSTGRES_DB;
   const databaseOpenedConnections = await database.query({
@@ -21,8 +21,8 @@ async function status(request, response) {
     update_at: updateAt,
     dependencies: {
       database: {
-        //version: version,
-        //max_connections: Number(maxConnections),
+        version: version,
+        max_connections: Number(maxConnections),
         opened_connections: Number(openedConnections),
       },
     },
