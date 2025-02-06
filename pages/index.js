@@ -8,7 +8,7 @@ function Home() {
         <meta charset="UTF-8" />
         <meta
           name="facebook-domain-verification"
-          content="jkza6sydnb4434g4ep08qpd44mhvmi"
+          content="3jscvmn2sa61q8uzwtlewln9sefhwm"
         />
       </Head>
       <h1>Home - seja bem vindo!</h1>
