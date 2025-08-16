@@ -1,4 +1,4 @@
-'use client'
+'use client';
 export default function Termos() {
   return (
     <div>
@@ -9,10 +9,10 @@ export default function Termos() {
         <span style={{ color: 'rgb(68, 68, 68)' }}>
           Ao acessar ao site <a href="https://worldbit.com.br/">worldbit</a>,
           concorda em cumprir estes termos de serviço, todas as leis e
-          regulamentos aplicáveis e concorda que é responsável pelo
-          cumprimento de todas as leis locais aplicáveis. Se você não concordar
-          com algum desses termos, está proibido de usar ou acessar este site.
-          Os materiais contidos neste site são protegidos pelas leis de direitos
+          regulamentos aplicáveis e concorda que é responsável pelo cumprimento
+          de todas as leis locais aplicáveis. Se você não concordar com algum
+          desses termos, está proibido de usar ou acessar este site. Os
+          materiais contidos neste site são protegidos pelas leis de direitos
           autorais e marcas comerciais aplicáveis.
         </span>
       </p>
