@@ -1,9 +1,9 @@
-import database from "infra/database";
-const { default: orchestrator } = require("tests/orchestrator");
+import database from 'infra/database';
+const { default: orchestrator } = require('tests/orchestrator');
 
-beforeAll(async ()=>{
+beforeAll(async () => {
   await orchestrator.waitForAllServices();
-  await database.query("drop schema public cascade; create schema public")
+  await database.query('drop schema public cascade; create schema public');
 });
 
 test('GET to /api/v1/migrations should return 200', async () => {
@@ -13,5 +13,5 @@ test('GET to /api/v1/migrations should return 200', async () => {
   const responseBady = await response.json();
 
   expect(Array.isArray(responseBady)).toBeTruthy();
-  expect(responseBady.length).toBeGreaterThan(0)
+  expect(responseBady.length).toBeGreaterThan(0);
 });
