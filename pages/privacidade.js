@@ -11,7 +11,7 @@ export default function Privacidade() {
       informamos por que estamos coletando e como será usado. Apenas retemos as
       informações coletadas pelo tempo necessário para fornecer o serviço
       solicitado. Quando armazenamos dados, protegemos dentro de meios
-      comercialmente aceitáveis ​​para evitar perdas e roubos, bem como acesso,
+      comercialmente aceitáveis para evitar perdas e roubos, bem como acesso,
       divulgação, cópia, uso ou modificação não autorizados. Não compartilhamos
       informações de identificação pessoal publicamente ou com terceiros, exceto
       quando exigido por lei. O nosso site pode ter links para sites externos

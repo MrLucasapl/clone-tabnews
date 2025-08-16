@@ -14,15 +14,15 @@ async function query(queryObject) {
   }
 }
 
-function getSSLValues() {
-  if (process.env.POSTGRES_CA) {
-    return {
-      ca: process.env.POSTGRES_CA,
-    };
-  }
-
-  return process.env.NODE_ENV === 'production' ? true : false;
-}
+//function getSSLValues() {
+//  if (process.env.POSTGRES_CA) {
+//    return {
+//      ca: process.env.POSTGRES_CA,
+//    };
+//  }
+//
+//  return process.env.NODE_ENV === 'production' ? true : false;
+//}
 
 async function getNewClient() {
   const client = new Client({
@@ -38,7 +38,6 @@ async function getNewClient() {
   return client;
 }
 
-export default {
-  query,
-  getNewClient,
-};
+const database = { query, getNewClient };
+
+export default database;

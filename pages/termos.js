@@ -54,8 +54,8 @@ export default function Termos() {
         </li>
         <li>
           <span style={{ color: 'rgb(68, 68, 68)' }}>
-            transferir os materiais para outra pessoa ou 'espelhe' os materiais
-            em qualquer outro servidor.
+            transferir os materiais para outra pessoa ou &lsquo;espelhe&rsquo;
+            os materiais em qualquer outro servidor.
           </span>
         </li>
       </ol>
@@ -76,20 +76,20 @@ export default function Termos() {
       <ol>
         <li>
           <span style={{ color: 'rgb(68, 68, 68)' }}>
-            Os materiais no site da worldbit são fornecidos 'como estão'.
-            worldbit não oferece garantias, expressas ou implícitas, e, por este
-            meio, isenta e nega todas as outras garantias, incluindo, sem
-            limitação, garantias implícitas ou condições de comercialização,
-            adequação a um fim específico ou não violação de propriedade
-            intelectual ou outra violação de direitos.
+            Os materiais no site da worldbit são fornecidos &lsquo;como
+            estão&rsquo;. worldbit não oferece garantias, expressas ou
+            implícitas, e, por este meio, isenta e nega todas as outras
+            garantias, incluindo, sem limitação, garantias implícitas ou
+            condições de comercialização, adequação a um fim específico ou não
+            violação de propriedade intelectual ou outra violação de direitos.
           </span>
         </li>
         <li>
           <span style={{ color: 'rgb(68, 68, 68)' }}>
             Além disso, o worldbit não garante ou faz qualquer representação
-            relativa à precisão, aos resultados prováveis ​​ou à confiabilidade
-            do uso dos materiais em seu site ou de outra forma relacionado a
-            esses materiais ou em sites vinculados a este site.
+            relativa à precisão, aos resultados prováveis ou à confiabilidade do
+            uso dos materiais em seu site ou de outra forma relacionado a esses
+            materiais ou em sites vinculados a este site.
           </span>
         </li>
       </ol>
@@ -98,15 +98,15 @@ export default function Termos() {
       </h2>
       <p>
         <span style={{ color: 'rgb(68, 68, 68)' }}>
-          Em nenhum caso o worldbit ou seus fornecedores serão responsáveis
-          ​​por quaisquer danos (incluindo, sem limitação, danos por perda de
-          dados ou lucro ou devido a interrupção dos negócios) decorrentes do
-          uso ou da incapacidade de usar os materiais em worldbit, mesmo que
-          worldbit ou um representante autorizado da worldbit tenha sido
-          notificado oralmente ou por escrito da possibilidade de tais danos.
-          Como algumas jurisdições não permitem limitações em garantias
-          implícitas, ou limitações de responsabilidade por danos conseqüentes
-          ou incidentais, essas limitações podem não se aplicar a você.
+          Em nenhum caso o worldbit ou seus fornecedores serão responsáveis por
+          quaisquer danos (incluindo, sem limitação, danos por perda de dados ou
+          lucro ou devido a interrupção dos negócios) decorrentes do uso ou da
+          incapacidade de usar os materiais em worldbit, mesmo que worldbit ou
+          um representante autorizado da worldbit tenha sido notificado
+          oralmente ou por escrito da possibilidade de tais danos. Como algumas
+          jurisdições não permitem limitações em garantias implícitas, ou
+          limitações de responsabilidade por danos conseqüentes ou incidentais,
+          essas limitações podem não se aplicar a você.
         </span>
       </p>
       <h2>
